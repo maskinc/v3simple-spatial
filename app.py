@@ -9,7 +9,7 @@ from random_words import RandomWords
 
 @route('/')
 def index():
-    return "<h1> hello OpenShift Ninja with a DB</h1>"
+    return "Hello proper Person"
 
 
 # since this is a read only talk to the replicas
